@@ -1,8 +1,24 @@
 aid: weekend-health-found
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/weekend-health-found.png
 name: Weekend Health (Found)
-description: 'Weekend Health (Found) is a company surfaced as a portfolio company of dcm-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Weekend Health, Inc. (operating as Found / Found Health) is a consumer telehealth company
+  offering personalized, science-based weight-loss care, including GLP-1 and other obesity medications,
+  clinician oversight, coaching, and habit-change support delivered direct-to-consumer and through
+  employer and health-plan channels. It was surfaced as a portfolio company of dcm-ventures and added to
+  the API Evangelist network. No public developer API, documentation, or developer portal is published
+  as of this enrichment pass; the profile carries the company identity plus a probed domain-security
+  posture.'
 url: https://raw.githubusercontent.com/api-evangelist/weekend-health-found/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Healthcare
+- Telehealth
+- Weight Loss
+- GLP-1
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.weekendhealth.com/
+- type: Support
+  name: Found Help Center
+  url: https://support.joinfound.com/
+- type: Blog
+  name: Found Blog
+  url: https://www.joinfound.com/blog
+- type: Pricing
+  name: Found Plans and Pricing
+  url: https://www.joinfound.com/plans-and-pricing
+- type: TermsOfService
+  url: https://www.weekendhealth.com/terms
+- type: PrivacyPolicy
+  url: https://www.weekendhealth.com/privacy
+- type: DomainSecurity
+  name: Domain security posture (probed)
+  url: security/weekend-health-found-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
